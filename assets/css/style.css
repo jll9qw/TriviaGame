@@ -1,0 +1,14 @@
+#header{
+
+    background-image: url('https://cdn.pixabay.com/photo/2012/03/03/23/06/backdrop-21534_1280.jpg');
+    font-family: 'Sedgwick Ave Display', cursive;
+    text-align: center;
+    color: rgba(16, 211, 16, 0.767);
+    font-size: 40px;
+
+}
+
+.option btn btn-info btn-lg{
+    color: black;
+    margin: auto;
+}
