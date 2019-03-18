@@ -5,6 +5,8 @@ $(document).ready(function(){
     $("#start-button").on('click', trivia.startGame,);
     $(document).on('click' , '.option', trivia.guessChecker);
     
+
+    
   })
   
   var trivia = {
@@ -48,6 +50,7 @@ $(document).ready(function(){
     // method to initialize game
     startGame: function(){
       // restarting game results
+      
       trivia.currentSet = 0;
       trivia.correct = 0;
       trivia.incorrect = 0;
